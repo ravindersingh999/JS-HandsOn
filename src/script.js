@@ -134,37 +134,34 @@ let myStr = "Learning to code is ";
 myStr += someAdjective;
 console.log(myStr,someAdjective);
 
-// Setup
+
 let lastNameLength = 0;
 const lastName = "Lovelace";
 
-// Only change code below this line
 lastNameLength = lastName.length;
 
-// Setup
+
 let firstLetterOfLastName = "";
 const lastName = "Lovelace";
 
-// Only change code below this line
-firstLetterOfLastName = lastName[0]; // Change this line
+firstLetterOfLastName = lastName[0]; 
 
 
-// Setup
 let myStr = "Jello World";
 
-// Only change code below this line
-myStr = "Hello World"; // Change this line
-// Only change code above this line
+
+myStr = "Hello World"; 
 
 
-// Setup
+
 const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2]; 
 
-// Only change code below this line
-const thirdLetterOfLastName = lastName[2]; // Change this line
 
-// Setup
 const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1];
 
-// Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length - 2];
