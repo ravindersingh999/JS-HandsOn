@@ -118,5 +118,9 @@ console.log(a,b,c)
 // const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 // console.log(myStr);
 
-const myStr = "This is the start. " + "This is the end.";
+// const myStr = "This is the start. " + "This is the end.";
+// console.log(myStr);
+
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
 console.log(myStr);
