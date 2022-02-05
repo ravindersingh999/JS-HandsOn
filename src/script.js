@@ -50,3 +50,6 @@ console.log(sum);
 
 const difference = 45 - 33;
 console.log(difference);
+
+const product = 8 * 10;
+console.log(product);
