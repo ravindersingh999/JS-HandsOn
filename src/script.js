@@ -73,11 +73,20 @@ console.log(quotient);
 const remainder = 11 % 3;
 console.log(remainder);
 
-let a = 3;
-let b = 17;
-let c = 12;
+// let a = 3;
+// let b = 17;
+// let c = 12;
 
-a += 12;
-b += 9;
-c += 7;
+// a += 12;
+// b += 9;
+// c += 7;
+// console.log(a,b,c);
+
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
 console.log(a,b,c);
