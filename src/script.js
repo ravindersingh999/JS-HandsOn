@@ -256,10 +256,20 @@ console.log(myStr,someAdjective);
 // }
 
 
-function myLocalScope() {
-    let myVar =5;
-    console.log('inside myLocalScope', myVar);
-  }
-  myLocalScope();
-  console.log(myVar);
-  console.log('outside myLocalScope', myVar);
+// function myLocalScope() {
+//     let myVar =5;
+//     console.log('inside myLocalScope', myVar);
+//   }
+//   myLocalScope();
+//   console.log(myVar);
+//   console.log('outside myLocalScope', myVar);
+
+
+
+var outerWear = "T-Shirt";
+function myOutfit() {
+    var outerWear = "sweater";
+    return outerWear;
+}
+
+myOutfit();
