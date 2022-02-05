@@ -47,3 +47,6 @@ console.log(FCC, fact);
 
 const sum = 10 + 10;
 console.log(sum);
+
+const difference = 45 - 33;
+console.log(difference);
