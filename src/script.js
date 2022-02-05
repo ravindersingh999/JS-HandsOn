@@ -112,5 +112,8 @@ console.log(a,b,c)
 // const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 // console.log(myStr);
 
-const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+// const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+// console.log(myStr);
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 console.log(myStr);
