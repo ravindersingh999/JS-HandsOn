@@ -276,20 +276,36 @@ console.log(myStr,someAdjective);
 
 
 
-let sum = 0;
-function addThree() {
-  sum = sum + 3;
-}
-function addFive(){
-  sum = sum +5;
-}
-addThree();
-addFive();
+// let sum = 0;
+// function addThree() {
+//   sum = sum + 3;
+// }
+// function addFive(){
+//   sum = sum +5;
+// }
+// addThree();
+// addFive();
 
 
-let processed = 0;
+// let processed = 0;
 
-function processArg(num) {
-  return (num + 3) / 5;
-}
-processed=processArg(7);
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
+// processed=processArg(7);
+
+
+
+
+function nextInLine(arr, item) { 
+    var queue = arr.push(item);
+  
+    var removeItem = arr.shift();
+  
+    return removeItem;  
+  }
+  var testArr = [1,2,3,4,5];
+  
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6)); 
+  console.log("After: " + JSON.stringify(testArr));
