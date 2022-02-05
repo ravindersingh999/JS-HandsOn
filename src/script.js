@@ -12,3 +12,6 @@ var b;
 b = a;
 
 var a = 9;
+
+var myFirstName = "First name";
+var myLastName = "Last name";
