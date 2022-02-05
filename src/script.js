@@ -229,3 +229,12 @@ function reusableFunction() {
     console.log(a + b);
   }
   functionWithArgs(10, 5);
+
+  
+  function  timesFive(num) {
+    return num * 5;
+  }
+  
+  const answer = timesFive(5);
+
+  
