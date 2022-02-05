@@ -115,5 +115,8 @@ console.log(a,b,c)
 // const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 // console.log(myStr);
 
-const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+// const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+// console.log(myStr);
+
+const myStr = "This is the start. " + "This is the end.";
 console.log(myStr);
