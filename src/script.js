@@ -125,6 +125,11 @@ console.log(a,b,c)
 // myStr += "This is the second sentence.";
 // console.log(myStr);
 
-const myName = "Ravinder Singh";
-const myStr = "My name is " +myName+ "and I am well!";
-console.log(myName,myStr);
+// const myName = "Ravinder Singh";
+// const myStr = "My name is " +myName+ "and I am well!";
+// console.log(myName,myStr);
+
+const someAdjective = "easy and fun";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+console.log(myStr,someAdjective);
