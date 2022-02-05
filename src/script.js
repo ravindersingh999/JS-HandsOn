@@ -62,3 +62,6 @@ myVar++;
 
 let myVar = 11;
 myVar--;
+
+const myDecimal = 4.7;
+
