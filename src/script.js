@@ -177,3 +177,7 @@ const wordBlanks = myNoun+" "+myAdjective+" "+myVerb+" "+myAdverb;
 const myArray = ["Ravinder", 22];
 
 const myArray = [["Bulls", 23], ["White Sox", 45]];
+
+
+const myArray = [50, 60, 70];
+var myData = myArray[0];
