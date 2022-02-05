@@ -173,3 +173,5 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 const wordBlanks = myNoun+" "+myAdjective+" "+myVerb+" "+myAdverb;
+
+const myArray = ["Ravinder", 22];
