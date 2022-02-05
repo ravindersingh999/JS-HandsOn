@@ -4,7 +4,7 @@
     multiple line
     comment */
 
-var myName;
+// var myName;
 
 // var a;
 // a = 7;
@@ -121,6 +121,10 @@ console.log(a,b,c)
 // const myStr = "This is the start. " + "This is the end.";
 // console.log(myStr);
 
-let myStr = "This is the first sentence. ";
-myStr += "This is the second sentence.";
-console.log(myStr);
+// let myStr = "This is the first sentence. ";
+// myStr += "This is the second sentence.";
+// console.log(myStr);
+
+const myName = "Ravinder Singh";
+const myStr = "My name is " +myName+ "and I am well!";
+console.log(myName,myStr);
