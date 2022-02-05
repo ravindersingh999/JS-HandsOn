@@ -6,25 +6,24 @@
 
 var myName;
 
-var a;
-a = 7;
-var b;
-b = a;
+// var a;
+// a = 7;
+// var b;
+// b = a;
 
-var a = 9;
+// var a = 9;
 
 var myFirstName = "First name";
 var myLastName = "Last name";
 
-// Only change code below this line
-var a = 5;
-var b = 10;
-var c = "I am a";
-// Only change code above this line
 
-a = a + 1;
-b = b + 5;
-c = c + " String!";
+// var a = 5;
+// var b = 10;
+// var c = "I am a";
+
+// a = a + 1;
+// b = b + 5;
+// c = c + " String!";
 
 // Variable declarations
 var studlyCapVar;
@@ -73,3 +72,12 @@ console.log(quotient);
 
 const remainder = 11 % 3;
 console.log(remainder);
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+console.log(a,b,c);
