@@ -175,3 +175,5 @@ const myAdverb = "quickly";
 const wordBlanks = myNoun+" "+myAdjective+" "+myVerb+" "+myAdverb;
 
 const myArray = ["Ravinder", 22];
+
+const myArray = [["Bulls", 23], ["White Sox", 45]];
