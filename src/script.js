@@ -218,39 +218,48 @@ console.log(myStr,someAdjective);
 // const myList = [["Chocolate", 10], ["Banana", 10], ["Apple", 5], ["Grapes", 20], ["Pineaple", 5]];
 
 
-function reusableFunction() {
-    console.log("Hi World");
-  }
+// function reusableFunction() {
+//     console.log("Hi World");
+//   }
   
-  reusableFunction()
+//   reusableFunction()
  
   
-  function functionWithArgs(a, b) {
-    console.log(a + b);
-  }
-  functionWithArgs(10, 5);
+//   function functionWithArgs(a, b) {
+//     console.log(a + b);
+//   }
+//   functionWithArgs(10, 5);
 
   
-  function  timesFive(num) {
-    return num * 5;
-  }
+//   function  timesFive(num) {
+//     return num * 5;
+//   }
   
-  const answer = timesFive(5);
+//   const answer = timesFive(5);
 
 
 
 
-let myGlobal = 10;
-function fun1() {
-    oopsGlobal = 5;
-}
-function fun2() {
-  var output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
+// let myGlobal = 10;
+// function fun1() {
+//     oopsGlobal = 5;
+// }
+// function fun2() {
+//   var output = "";
+//   if (typeof myGlobal != "undefined") {
+//     output += "myGlobal: " + myGlobal;
+//   }
+//   if (typeof oopsGlobal != "undefined") {
+//     output += " oopsGlobal: " + oopsGlobal;
+//   }
+//   console.log(output);
+// }
+
+
+function myLocalScope() {
+    let myVar =5;
+    console.log('inside myLocalScope', myVar);
   }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
+  myLocalScope();
+  console.log(myVar);
+  console.log('outside myLocalScope', myVar);
